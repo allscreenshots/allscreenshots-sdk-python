@@ -1,39 +1,16 @@
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Environment
-.env
-.env.local
-.env.*.local
-
-# Virtual environments
-.venv/
-venv/
-env/
-.env/
-
-# Build output
+node_modules/
 dist/
-build/
-*.egg-info/
+.venv/
 __pycache__/
-*.pyc
-*.pyo
-
-# Test output
-.pytest_cache/
-.coverage
-htmlcov/
-.ruff_cache/
-
-# Type checking
-.mypy_cache/
-
+*.egg-info/
+build/
+.build/
+.swiftpm/
+target/
+bin/
+obj/
+vendor/
+.bundle/
+test-results/
+capture.png
+sample-app/worker

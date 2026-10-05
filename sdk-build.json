@@ -1,0 +1,17 @@
+{
+  "language": "python",
+  "build": [
+    [
+      "uv",
+      "sync",
+      "--frozen"
+    ]
+  ],
+  "run": [
+    "uv",
+    "run",
+    "--frozen",
+    "python",
+    "sample-app/worker.py"
+  ]
+}
