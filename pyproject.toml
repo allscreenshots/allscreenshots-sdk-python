@@ -1,13 +1,29 @@
 [project]
-name = "allscreenshots_sdk"
+name = "allscreenshots-sdk"
 version = "2.0.0"
-description = "Allscreenshots public API"
+description = "Official Python SDK for the Allscreenshots screenshot API: capture websites, manage jobs, compose images, schedule captures, crawl sites, and read usage."
 authors = [
   {name = "Allscreenshots",email = "support@allscreenshots.com"},
 ]
-license = { text = "Apache-2.0" }
+license = "Apache-2.0"
+license-files = ["LICENSE"]
 readme = "README.md"
-keywords = ["OpenAPI", "OpenAPI-Generator", "Allscreenshots public API"]
+keywords = ["allscreenshots", "screenshot", "screenshot-api", "website-screenshot", "web-capture", "pdf", "sdk", "api-client", "openapi"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Typing :: Typed",
+]
 requires-python = ">=3.10"
 
 dependencies = [
@@ -18,7 +34,10 @@ dependencies = [
 ]
 
 [project.urls]
+Homepage = "https://allscreenshots.com"
+Documentation = "https://docs.allscreenshots.com"
 Repository = "https://github.com/allscreenshots/allscreenshots-sdk-python"
+Issues = "https://github.com/allscreenshots/allscreenshots-sdk-python/issues"
 
 [tool.poetry]
 requires-poetry = ">=2.0"
